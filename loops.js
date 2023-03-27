@@ -1,6 +1,6 @@
-// 1 to 100 all even number
-var number = 0;
+// 1 to 100 all odd number
+var number = 1;
 while(number <= 10){
-   console.log(number);
+   console.log(number)
    number+=2;
 }
