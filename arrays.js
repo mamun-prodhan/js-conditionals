@@ -1,6 +1,10 @@
-var names = ["Mamun", "Arjun Das", "Jeshan Ahmed", "Shovon Kumar", "Mehedi hasan Zihad"];
-console.log(names);
+var isGraduated = false;
+var salary = 50000;
+var car = 1;
 
-names.unshift("Mahadi", "Mahmud", "Maruf");
-
-console.log(names);
+if(isGraduated === true && salary >= 50000 && car >= 1){
+    console.log("Biye kore felo");
+}
+else{
+    console.log("age sob full fill koro, then biye");
+}
