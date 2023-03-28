@@ -1,6 +1,13 @@
-// 1 to 100 all odd number
-var number = 1;
-while(number <= 10){
-   console.log(number)
-   number+=2;
+// function calculation(text){
+//    console.log("This is", text(), "room");
+// }
+
+// calculation(function(){
+//    return " my reading ";
+// })
+
+
+{
+   const car = "volvo";
+   console.log(car);
 }
