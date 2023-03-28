@@ -8,6 +8,8 @@
 
 
 {
-   const car = "volvo";
+   var car = "volvo";
    console.log(car);
 }
+
+console.log(car);
