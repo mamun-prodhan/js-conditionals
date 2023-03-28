@@ -7,9 +7,17 @@
 // })
 
 
-{
-   var car = "volvo";
-   console.log(car);
+// {
+//    var car = "volvo";
+//    console.log(car);
+// }
+
+// console.log(car);
+
+function run(){
+   var message = "Run Forrest Run!!";
+   console.log(message);
 }
 
-console.log(car);
+run();
+console.log(message);
