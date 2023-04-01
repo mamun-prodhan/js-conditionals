@@ -43,15 +43,43 @@
 //   console.log(numbers[i]);
 // }
 
-var items = ['bottle', 'mouse', 'sunglass', 'pen', 'book', 'glass', 'fan'];
-for(var i = 0; i < items.length; i++){
+// var items = ['bottle', 'mouse', 'sunglass', 'pen', 'book', 'glass', 'fan'];
+// for(var i = 0; i < items.length; i++){
   
-  if(items[i] === 'book'){
-    console.log(items[i]);
-  }
+//   if(items[i] === 'book'){
+//     console.log(items[i]);
+//   }
 
-  else if(items[i] === 'bottle'){
-    console.log("bottle is found, stop the loop");
-    break;
-  }
-}
+//   else if(items[i] === 'bottle'){
+//     console.log("bottle is found, stop the loop");
+//     break;
+//   }
+// }
+
+
+// var roastGiven = 1;
+// while(roastGiven < 10){
+//   console.log('Roast den', roastGiven);
+//   roastGiven++;
+// }
+
+// var numbers = [45, 87, 89, 56, 32, 51, 25, 188, 41, 25, 98];
+
+// for(var i = 0; i < numbers.length; i++){
+//   var number = numbers[i];
+//   if(number > 50){
+//     continue;
+//   }
+//   console.log(number);
+// }
+
+// var num = 10;
+// while(num >= 0){
+//   console.log(num);
+//   num--;
+// }
+
+
+// for( var i = 10; i >= 1; i--){
+//   console.log(i);
+// }
