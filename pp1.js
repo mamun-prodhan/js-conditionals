@@ -13,17 +13,27 @@
 // var reminder = 199 % 5;
 // console.log(reminder);
 
-var fruits = ['Apple', 'Banana', 'Orange'];
+// var fruits = ['Apple', 'Banana', 'Orange'];
 
-for(var i = 0; i < fruits.length; i++){
+// for(var i = 0; i < fruits.length; i++){
     
-    if(fruits[i] === 'Banana'){
-        console.log('index of banana: ', i);
-        fruits[i] = 'Mango';
-    }
+//     if(fruits[i] === 'Banana'){
+//         console.log('index of banana: ', i);
+//         fruits[i] = 'Mango';
+//     }
     
-}
+// }
 
-fruits[2] = 'Watermelon';
+// fruits[2] = 'Watermelon';
 
+// console.log(fruits);
+
+// var fruits = ['Apple', 'Banana', 'Orange'];
+// var bananIndex = fruits.indexOf('Banana');
+// fruits[bananIndex] = 'Mango';
+// console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+fruits.push('Watermelon');
 console.log(fruits);
