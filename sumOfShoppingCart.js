@@ -18,4 +18,4 @@ function totalCost(shoppingCart){
 }
 
 const result = totalCost(shoppingCart);
-console.log(result)
+console.log(result);
